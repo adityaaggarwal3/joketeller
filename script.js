@@ -10,7 +10,7 @@ function tellMe(joke) {
   const jokeString = joke.trim().replace(/ /g, '%20');
   // VoiceRSS Speech Parameters
   VoiceRSS.speech({
-    key: '8c1c3596bda2487ba6a730ba065b540a',
+    key: '',
     src: jokeString,
     hl: 'en-us',
     r: 0,
